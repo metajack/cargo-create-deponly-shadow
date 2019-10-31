@@ -1,0 +1,13 @@
+[package]
+name = "cargo-create-deponly-shadow"
+version = "1.0.0"
+authors = ["Jack Moffitt <jack@metajack.im>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+structopt = "0.3"
+toml = "0.5"
+walkdir = "2.2"
+
